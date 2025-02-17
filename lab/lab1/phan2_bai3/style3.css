@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #201b1b;
+}
+.container {
+    width: 750px;
+}
+.header {
+    background-color: #f6eded93;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.header input {
+    padding: 5px;
+}
+.footer {
+    background-color: rgb(229, 232, 51);
+    padding: 5px;
+    padding-left: 10px;
+}
+.content {
+    display: flex;
+
+}
+.content_3 {
+    width: 230px;
+    padding: 10px;
+    background-color: #28155c93;
+    flex: 0 0 auto; /* Giữ nguyên kích thước */
+}
+.content_2 {
+    padding: 10px;
+    background-color: aquamarine;
+}
+.content_1 > img {
+    height: 100%;
+}

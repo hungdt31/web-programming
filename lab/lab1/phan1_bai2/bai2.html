@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        form > * + * {
+            margin-top: 0.5rem;
+        }
+        form > fieldset {
+            width: 200px;
+        }
+        .contact {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <img src="img/Picture.png" alt="picture">
+    <h1>About</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est laborum.
+    </p>
+    <h1>Intro</h1>
+    <video width="500" height="240" controls>
+        <source src="video/van_de_ky_nang.mp4" type="video/mp4">
+    </video>
+    <h1>Our Locations</h1>
+    <ul>
+        <li>USA
+            <ul>
+                <li><a href="https://www.meetup.com/girldevelopit/">New York</a></li>
+                <li><a href="https://www.meetup.com/girldevelopitcbus/">Columbus</a></li>
+                <li><a href="https://www.meetup.com/girl-develop-it-austin/">Austin</a></li>
+                <li><a href="https://www.meetup.com/Girl-Develop-It-Philadelphia/">Philly</a></li>
+            </ul>
+        </li>
+        <li>World
+            <ul>
+                <li><a href="https://www.meetup.com/girl-develop-it-ottawa/">Ottawa</a></li>
+                <li><a href="https://www.meetup.com/girldevelopit-sydney/">Sydney</a></li>
+            </ul>
+        </li>
+    </ul>
+    <h1>Upcoming Classes</h1>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>JavaScript & jQuery</td>
+        </tr>
+        <tr>
+            <td>San Francisco</td>
+            <td>HTML & CSS</td>
+        </tr>
+    </table>
+    <h1>Sign Up!</h1>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="location">Location:</label>
+            <select id="location">
+                <option value="1">San Francisco</option>
+                <option value="2">New York</option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>Gender:</legend>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+        </fieldset>
+        <div>
+            <div>
+                <label for="experience">Experience:</label>
+            </div>
+            <textarea id="experience" name="experience"></textarea>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+    <div class="contact">
+        <a href="https://x.com/girldevelopit?mx=2" style="border-right: 1px solid black; padding-right: 5px;">Twitter</a>
+        <a href="https://web.facebook.com/girldevelopit?_rdc=1&_rdr" style="border-right: 1px solid black; padding-right: 5px;">Facebook</a>
+        <a href="http://www.flickr.com/photos/40453677@N00/sets/72157626841092971/">Flickr</a>
+    </div>
+</body>
+</html>
