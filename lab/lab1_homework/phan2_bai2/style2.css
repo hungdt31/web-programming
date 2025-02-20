@@ -1,0 +1,58 @@
+:root {
+    --heading-color: #e94e4e;
+    --border-table: #cec7c7c0;
+}
+.text::first-letter {
+    font-size: 300%;
+}
+h1 {
+    text-shadow: 6px 4px #1679ca;
+    color: var(--heading-color);
+}
+h2 {
+    color: var(--heading-color);
+}
+ul li {
+    margin-top: 10px;
+}
+#list1 li:nth-child(odd) a {
+    color: red;
+}
+#list1 li:nth-child(even) a {
+    color: blue;
+}
+#list2 li:nth-child(odd) a {
+    color: blue;
+}
+#list2 li:nth-child(even) a {
+    color: red;
+}
+table {
+    border: 2px solid var(--border-table);
+    border-collapse: collapse;
+}
+table td, table th {
+    text-align: center;
+    border: 2px solid var(--border-table);
+    padding: 5px 10px;
+}
+.footer {
+    margin-top: 10px;
+}
+.footer span {
+    border-right: 2px solid #000;
+    padding-right: 4px;
+}
+.footer span:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+.hightlight {
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.hightlight:last-child {
+    font-weight: normal;
+    font-style: italic;
+}
