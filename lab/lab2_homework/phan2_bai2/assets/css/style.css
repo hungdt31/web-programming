@@ -1,0 +1,53 @@
+/* assets/css/style.css */
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+#calculator {
+    max-width: 350px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    height: 60px;
+    transition: all 0.2s ease;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.display-area {
+    background-color: #e9ecef;
+    border: none;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#smallResult {
+    font-size: 1rem;
+    min-height: 24px;
+}
+
+#result {
+    font-size: 2rem;
+}
+
+body {
+    background-color: #e9ecef;
+}
+
+/* Điều chỉnh grid cho 4 nút mỗi hàng */
+@media (min-width: 576px) {
+    #calculator .row > .col-3 {
+        flex: 0 0 25%; /* 4 nút mỗi hàng */
+        max-width: 25%;
+    }
+}

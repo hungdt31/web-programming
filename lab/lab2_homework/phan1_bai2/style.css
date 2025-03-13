@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+.sidebar {
+    background: #f8f9fa;
+}
+
+.product-image {
+    background: #ddd;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnail {
+    background: #ccc;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.ad-banner {
+    background: #ddd;
+    height: 600px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
